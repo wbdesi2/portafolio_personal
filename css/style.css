@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+	background-color: #000000;
+	color: #A145A2;
+} 
+body{
+	background-color: #221222;
+	color: beige;
+}
+
+#hero{
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+#acercademi {
+	margin-top: 120px;
+	margin-bottom: 130px;
+	align-content: center;
+	text-align: center;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+#yo{
+	 width: 200px; 
+     height: 200px;
+	 border-radius: 50%; 
+     object-fit: cover; 
+     border: 2px solid #000;
+	
+}
+
+#emil{
+	
+	width: 100%;
+    height: 30%;
+    object-fit: cover;
+    transition: opacity 1s ease-in-out;
+    opacity: 1; 
+	
+}
+#servicios{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	align-content: center;
+	
+}
+#portafolio{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 100px;
+	padding-right: 50px;
+	align-content: center;
+
+	
+}
+
+#portafolio img{
+	margin: 30px;
+}
+
+
+#redes{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	align-content: center;
+	
+	
+}
+
+ .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px; 
+            justify-content: center; 
+        }
+
+ .card {
+            width: 200px; 
+            display: flex;
+            flex-direction: column; 
+            height: 400px; 
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+.card img {
+            width: 100%;
+            height: 200px; 
+            object-fit: cover; 
+        }
+ .card video {
+            width: 100%;
+            height: 200px;
+            object-fit: cover; 
+        }
+
+        .card-body {
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+           
+            flex-grow: 1;
+        }
+h2{
+	margin: 50px 0px;
+	text-decoration:overline;
+	color: #817DD2;
+	
+}
+#redes .contact-card {
+      background-color: #fff;
+   	 padding: 60px 30px;
+    text-align: center;
+	border-radius: 10px;
+	color: #000000;
+        }
+
+footer{
+	background-color: #A145A2;
+	align-content: center;
+	text-align: center;
+	color: beige;
+}
